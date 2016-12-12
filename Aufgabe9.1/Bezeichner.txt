@@ -1,0 +1,12 @@
+1. _hello - Ja, Unterstriche am Anfang koennen aber Konflikte mit Systembezeichnern verursachen
+2. Hello37 - Ja, trotz Grossbuchstabe am Anfang
+3. constant-value - Nein, keine minus-Zeichen
+4. subject#1 - Nein, keine Hashzeichen
+5. n - Ja
+6. M - Ja, aber am besten als Konstante
+7. km_per_hour - Ja
+8. speed! - Nein, keine Ausrufezeichen
+9. sensibel\$name - Nein, keine Dollarzeichen (auch nicht escaped)
+10. _num_incorrect_ - Ja, Unterstriche am Anfang koennen aber Konflikte mit Systembezeichnern verursachen
+11. big_long_name_many_letters - Ja, bis 31 Zeichen
+12. 12oclock - Nein, keine Ziffern am Anfang
