@@ -1,3 +1,5 @@
+// Bocher Diedrich Sandmeier
+
 1. _hello - Ja, Unterstriche am Anfang koennen aber Konflikte mit Systembezeichnern verursachen
 2. Hello37 - Ja, trotz Grossbuchstabe am Anfang
 3. constant-value - Nein, keine minus-Zeichen
