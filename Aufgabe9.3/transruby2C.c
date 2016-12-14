@@ -43,13 +43,13 @@ int main()
 
   printf("a=%i,b=%i,c=%i\n", a, b ,c);
 
-  float sum = 0.0;
+  double sum = 0.0;
 
   int i;
   
   for(i = 0; i <= 5; i++)
   {
-    sum += sqrt((double) i);
+    sum += sqrt(i);
   }
 
   printf("%.4f\n",sum);
