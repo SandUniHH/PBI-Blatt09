@@ -1,63 +1,32 @@
-// Bocher, Diedrich, Sandmeier
+#!/usr/bin/env ruby
 
-#include <stdio.h>
-#include <math.h> // for sqrt()
-#include <string.h> // for strlen()
+a = 64/3
+b = 219/a
+c = 313/(a+b)
+arr = [a,b,c]
+v = arr[2]
+f = if v > 5 or arr[0] < 16 then 0.1 else 1.4 end
+if f == 1.4 or arr[0] > 5
+  b = 25
+else
+  a = 27
+end
+puts "a=#{a},b=#{b},c=#{c}"
 
-int main()
-{
-  int a = 64 / 3;
-  int b = 219/a;
-  int c = 313/(a+b);
-  int arr[3] = {a,b,c};
-  v = arr[2]:
+while a < b and c > 7
+  a += 1
+  b -= 1
+  c -= 1
+end
+puts "a=#{a},b=#{b},c=#{c}"
 
-  float f;
+sum = 0.0
+0.upto(5).each do |i|
+  sum += Math.sqrt(i.to_f)
+end
 
-  if (v > 5 || arr[0] < 16)
-  {
-    f = 0.1;
-  }
-  else
-  {
-    f = 1.4;
-  }
+printf("%.4f\n",sum)
 
-  if (f == 1.4 || arr[0] > 5)
-  {
-    b = 25:
-  }
-  else
-  {
-    a = 27
-  }
-
-  printf("a=%i,b=%i,c=%i", a, b ,c);
-
-  while (a < b && c > 7)
-  {
-    a += 1;
-    b -= 1;
-    c -= 1;
-  }
-
-  printf("a=%i,b=%i,c=%i", a, b ,c);
-
-  float sum = 0.0;
-
-  for (i = 0; i <= 5; i++)
-  {
-    sum += sqrt((float) i);
-  }
-
-  printf("%.4f\n",sum);
-
-  letters[] = "abcdef";
-
-  for (i = 0; i ; i < strlen(letters) - 1; i++)
-  {
-    printf("%c\t%c\n", letters[i], toupper(letter[i]));
-  }
-  
-  return 0;
-}
+'a'.upto('f').each do |cc|
+  puts "#{cc}\t#{cc.capitalize}"
+end
