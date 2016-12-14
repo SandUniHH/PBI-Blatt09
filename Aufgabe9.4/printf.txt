@@ -5,8 +5,8 @@ printf("n = %3d, x = %8.4f, m = \"%-15s\"\n", n, x, m);
 Ausgabe abweichend, weil (u.a.):
 
 1: Korrekte Ausgabe
-2: Vier Stellen von n statt 3
-3: Vier Stellen von n statt 3 (sign)
+2: 3 Stellen nach dem Punkt statt 4
+3: Korrekte Ausgabe
 4: m rechtsbuendig statt linksbuendig
 5: x Eine Stelle zu viel vor vor dem Punkt (insgesamt 9 Stellen statt 8)
 6: 1 Stelle bei n statt 3
