@@ -1,8 +1,9 @@
 // Bocher, Diedrich, Sandmeier
 
 #include <stdio.h>
-#include <math.h> // for sqrt()
-#include <string.h> // for strlen()
+#include <ctype.h> 	// for toupper(), although it works without as well!?
+#include <math.h> 	// for sqrt()
+#include <string.h> 	// for strlen()
 
 int main()
 {
